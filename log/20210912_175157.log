@@ -1,0 +1,36 @@
+_____________bbcsport_2view Spectral Cluster__________________
+Parameter settings: Namespace(alpha=0.5, cuda=True, dataset='bbcsport_2view', epochs=1000, knn=14, lr=0.0001, mu=0.769, patience=10, sc=1, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.15511083602905273s
+Using GPU  
+Early stopping!  Loading 18th epoch
+Result: NMI:0.9482 || ACC:0.9853 || ARI:0.9576 || F-score:0.9678 || Precision:0.9907 || Recall:0.9838 || Purity:0.9853 || Time:2.1101s
+&0.948$\pm$0.000&0.985$\pm$0.000&0.958$\pm$0.000&0.968$\pm$0.000&0.991$\pm$0.000&0.984$\pm$0.000&0.985$\pm$0.000\\
+_____________bbcsport_2view Spectral Cluster__________________
+
+
+
+_____________bbcsport_2view K-means__________________
+Parameter settings: Namespace(alpha=0.5, cuda=True, dataset='bbcsport_2view', epochs=1000, knn=59, lr=0.0001, mu=0.1, patience=10, sc=0, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.16335129737854004s
+Using GPU  
+Early stopping!  Loading 18th epoch
+Result: NMI:0.8989 || ACC:0.9688 || ARI:0.9180 || F-score:0.9378 || Precision:0.9735 || Recall:0.9661 || Purity:0.9688 || Time:2.0845s
+&0.899$\pm$0.000&0.969$\pm$0.000&0.918$\pm$0.000&0.938$\pm$0.000&0.974$\pm$0.000&0.966$\pm$0.000&0.969$\pm$0.000\\
+_____________bbcsport_2view K-means__________________
+
+
+
+_____________msrcv1 Spectral Cluster__________________
+Parameter settings: Namespace(alpha=0.769, cuda=True, dataset='msrcv1', epochs=1000, knn=16, lr=0.0001, mu=0.769, patience=10, sc=1, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.05798459053039551s
+Using GPU  
+Early stopping!  Loading 38th epoch
+Result: NMI:0.8718 || ACC:0.9333 || ARI:0.8454 || F-score:0.8670 || Precision:0.9423 || Recall:0.9333 || Purity:0.9333 || Time:1.8895s
+&0.872$\pm$0.000&0.933$\pm$0.000&0.845$\pm$0.000&0.867$\pm$0.000&0.942$\pm$0.000&0.933$\pm$0.000&0.933$\pm$0.000\\
+_____________msrcv1 Spectral Cluster__________________
+
+
+

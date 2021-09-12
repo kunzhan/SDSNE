@@ -1,0 +1,120 @@
+_____________bbcsport_2view Spectral Cluster__________________
+Parameter settings: Namespace(alpha=0.5, cuda=True, dataset='bbcsport_2view', epochs=1000, knn=14, lr=0.0001, mu=0.769, patience=10, sc=1, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.16870951652526855s
+Using GPU  
+Early stopping!  Loading 18th epoch
+Result: NMI:0.9482 || ACC:0.9853 || ARI:0.9576 || F-score:0.9678 || Precision:0.9907 || Recall:0.9838 || Purity:0.9853 || Time:2.2074s
+&0.948$\pm$0.000&0.985$\pm$0.000&0.958$\pm$0.000&0.968$\pm$0.000&0.991$\pm$0.000&0.984$\pm$0.000&0.985$\pm$0.000\\
+_____________bbcsport_2view Spectral Cluster__________________
+
+
+
+_____________bbcsport_2view K-means__________________
+Parameter settings: Namespace(alpha=0.5, cuda=True, dataset='bbcsport_2view', epochs=1000, knn=59, lr=0.0001, mu=0.1, patience=10, sc=0, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.16193771362304688s
+Using GPU  
+Early stopping!  Loading 18th epoch
+Result: NMI:0.8989 || ACC:0.9688 || ARI:0.9180 || F-score:0.9378 || Precision:0.9735 || Recall:0.9661 || Purity:0.9688 || Time:2.0461s
+&0.899$\pm$0.000&0.969$\pm$0.000&0.918$\pm$0.000&0.938$\pm$0.000&0.974$\pm$0.000&0.966$\pm$0.000&0.969$\pm$0.000\\
+_____________bbcsport_2view K-means__________________
+
+
+
+_____________msrcv1 Spectral Cluster__________________
+Parameter settings: Namespace(alpha=0.769, cuda=True, dataset='msrcv1', epochs=1000, knn=16, lr=0.0001, mu=0.769, patience=10, sc=1, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.059450626373291016s
+Using GPU  
+Early stopping!  Loading 38th epoch
+Result: NMI:0.8718 || ACC:0.9333 || ARI:0.8454 || F-score:0.8670 || Precision:0.9423 || Recall:0.9333 || Purity:0.9333 || Time:1.8924s
+&0.872$\pm$0.000&0.933$\pm$0.000&0.845$\pm$0.000&0.867$\pm$0.000&0.942$\pm$0.000&0.933$\pm$0.000&0.933$\pm$0.000\\
+_____________msrcv1 Spectral Cluster__________________
+
+
+
+_____________msrcv1 K-means__________________
+Parameter settings: Namespace(alpha=0.0, cuda=True, dataset='msrcv1', epochs=1000, knn=15, lr=1e-05, mu=0.769, patience=10, sc=0, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.05848813056945801s
+Using GPU  
+Early stopping!  Loading 256th epoch
+Result: NMI:0.8977 || ACC:0.9429 || ARI:0.8673 || F-score:0.8860 || Precision:0.9532 || Recall:0.9429 || Purity:0.9429 || Time:3.7372s
+&0.898$\pm$0.000&0.943$\pm$0.000&0.867$\pm$0.000&0.886$\pm$0.000&0.953$\pm$0.000&0.943$\pm$0.000&0.943$\pm$0.000\\
+_____________msrcv1 K-means__________________
+
+
+
+_____________100leaves Spectral Cluster__________________
+Parameter settings: Namespace(alpha=0.3, cuda=True, dataset='100leaves', epochs=1000, knn=12, lr=0.0001, mu=0.3, patience=10, sc=1, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.586644172668457s
+Using GPU  
+Early stopping!  Loading 6th epoch
+Result: NMI:0.9715 || ACC:0.9569 || ARI:0.9131 || F-score:0.9141 || Precision:0.9667 || Recall:0.9569 || Purity:0.9569 || Time:5.2953s
+&0.972$\pm$0.000&0.957$\pm$0.000&0.913$\pm$0.000&0.914$\pm$0.000&0.967$\pm$0.000&0.957$\pm$0.000&0.957$\pm$0.000\\
+_____________100leaves Spectral Cluster__________________
+
+
+
+_____________100leaves K-means__________________
+Parameter settings: Namespace(alpha=0.2, cuda=True, dataset='100leaves', epochs=1000, knn=14, lr=0.0001, mu=0.769, patience=10, sc=0, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.582695722579956s
+Using GPU  
+Early stopping!  Loading 6th epoch
+Result: NMI:0.9793 || ACC:0.9619 || ARI:0.9344 || F-score:0.9351 || Precision:0.9647 || Recall:0.9619 || Purity:0.9663 || Time:11.1397s
+&0.979$\pm$0.000&0.962$\pm$0.000&0.934$\pm$0.000&0.935$\pm$0.000&0.965$\pm$0.000&0.962$\pm$0.000&0.966$\pm$0.000\\
+_____________100leaves K-means__________________
+
+
+
+_____________3sources Spectral Cluster__________________
+Parameter settings: Namespace(alpha=0.769, cuda=True, dataset='3sources', epochs=1000, knn=16, lr=0.0001, mu=0.769, patience=10, sc=1, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.051596641540527344s
+Using GPU  
+Early stopping!  Loading 47th epoch
+Result: NMI:0.8480 || ACC:0.9349 || ARI:0.8667 || F-score:0.8976 || Precision:0.9274 || Recall:0.9183 || Purity:0.9349 || Time:1.7337s
+&0.848$\pm$0.000&0.935$\pm$0.000&0.867$\pm$0.000&0.898$\pm$0.000&0.927$\pm$0.000&0.918$\pm$0.000&0.935$\pm$0.000\\
+_____________3sources Spectral Cluster__________________
+
+
+
+_____________3sources K-means__________________
+Parameter settings: Namespace(alpha=0.5, cuda=True, dataset='3sources', epochs=1000, knn=40, lr=0.0001, mu=0.1, patience=10, sc=0, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:0.05106019973754883s
+Using GPU  
+Early stopping!  Loading 47th epoch
+Result: NMI:0.7466 || ACC:0.8284 || ARI:0.7413 || F-score:0.8023 || Precision:0.7203 || Recall:0.7357 || Purity:0.8462 || Time:1.7533s
+&0.747$\pm$0.000&0.828$\pm$0.000&0.741$\pm$0.000&0.802$\pm$0.000&0.720$\pm$0.000&0.736$\pm$0.000&0.846$\pm$0.000\\
+_____________3sources K-means__________________
+
+
+
+_____________scene-15 Spectral Cluster__________________
+Parameter settings: Namespace(alpha=0.769, cuda=True, dataset='scene-15', epochs=1000, knn=7, lr=1e-05, mu=0.769, patience=10, sc=1, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:4.779977560043335s
+Using GPU  
+Early stopping!  Loading 20th epoch
+Result: NMI:0.4384 || ACC:0.4363 || ARI:0.2626 || F-score:0.3247 || Precision:0.4263 || Recall:0.4271 || Purity:0.4854 || Time:88.3708s
+&0.438$\pm$0.000&0.436$\pm$0.000&0.263$\pm$0.000&0.325$\pm$0.000&0.426$\pm$0.000&0.427$\pm$0.000&0.485$\pm$0.000\\
+_____________scene-15 Spectral Cluster__________________
+
+
+
+_____________scene-15 K-means__________________
+Parameter settings: Namespace(alpha=3.0, cuda=True, dataset='scene-15', epochs=1000, knn=12, lr=1e-05, mu=0.769, patience=10, sc=0, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:4.789868354797363s
+Using GPU  
+Early stopping!  Loading 20th epoch
+Result: NMI:0.4370 || ACC:0.4426 || ARI:0.2473 || F-score:0.3081 || Precision:0.5046 || Recall:0.4374 || Purity:0.4577 || Time:63.4902s
+&0.437$\pm$0.000&0.443$\pm$0.000&0.247$\pm$0.000&0.308$\pm$0.000&0.505$\pm$0.000&0.437$\pm$0.000&0.458$\pm$0.000\\
+_____________scene-15 K-means__________________
+
+
+

@@ -1,0 +1,28 @@
+_____________Dataset Reuters__________________
+https://drive.google.com/drive/folders/1O_3YmthAZGiq1ZPSdE74R7Nwos2PmnHH
+_____________Dataset Reuters__________________
+
+_____________Reuters SC__________________
+Parameter settings: Namespace(alpha=0.25, cuda=0, dataset='Reuters', epochs=500, knn=500, lr=0.0001, mu=0.3, patience=10, sc=1, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:355.46020770072937s
+Using CPU  
+Early stopping!  Loading 0th epoch
+Result: NMI:0.3931 || ACC:0.5223 || ARI:0.2377 || F-score:0.4713 || Precision:0.4837 || Recall:0.4009 || Purity:0.5873 || Time:2517.1163s
+&0.393$\pm$0.000&0.522$\pm$0.000&0.238$\pm$0.000&0.471$\pm$0.000&0.484$\pm$0.000&0.401$\pm$0.000&0.587$\pm$0.000\\
+_____________Reuters SC__________________
+
+
+
+_____________Reuters K-means__________________
+Parameter settings: Namespace(alpha=0.25, cuda=0, dataset='Reuters', epochs=500, knn=500, lr=0.0001, mu=0.3, patience=10, sc=0, seed=42, sigma=0.5, train=1, wd=0.0)
+Reading multi-view data...
+Reading Time:462.77096033096313s
+Using CPU  
+Early stopping!  Loading 0th epoch
+Result: NMI:0.3879 || ACC:0.5164 || ARI:0.2105 || F-score:0.4575 || Precision:0.4909 || Recall:0.3984 || Purity:0.5812 || Time:1299.5166s
+&0.388$\pm$0.000&0.516$\pm$0.000&0.210$\pm$0.000&0.457$\pm$0.000&0.491$\pm$0.000&0.398$\pm$0.000&0.581$\pm$0.000\\
+_____________Reuters K-means__________________
+
+
+
